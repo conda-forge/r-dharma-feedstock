@@ -1,4 +1,4 @@
-{% set version = "0.3.4" %}
+{% set version = "0.4.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/DHARMa_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/DHARMa/DHARMa_{{ version }}.tar.gz
-  sha256: 5d83c4afa3b63d1c4b374f4ba8736cbbf8b7560c04e7157777b7f9129d7d24a6
+  sha256: d38fe3673410abf8ebc0b68309b9098b519d0f93513a95cdd310bb8a6ee683b9
 
 build:
   merge_build_host: true  # [win]
