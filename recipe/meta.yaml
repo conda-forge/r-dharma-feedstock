@@ -1,4 +1,4 @@
-{% set version = "0.5.0" %}
+{% set version = "0.5.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/DHARMa_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/DHARMa/DHARMa_{{ version }}.tar.gz
-  sha256: 18e890c4ee91b3c3f2ba3f1be96f328c4ae8ca969a433b1b17e7c13d467b0316
+  sha256: db4463dfa37f1e65ec31f6be5ab8d18ff86e3f2d14c94dcfa5c2ab83b4e0f7c4
 
 build:
   number: 0
